@@ -4,6 +4,10 @@
 public class Sample {
 
 	public static void main(String[] args) {
-		//cools
+		Sample.run();
+	}
+
+	static void run(){
+		System.out.println("run");
 	}
 }
